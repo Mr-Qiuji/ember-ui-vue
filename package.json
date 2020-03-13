@@ -1,12 +1,31 @@
 {
   "name": "ember-ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "基于vue-cli3的vue移动UI组件库",
+  "private": false,
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "qjr <qiujir@qq.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "cross-env rimraf ./lib && node ./build/index.js"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli3",
+    "mobile",
+    "ember-ui"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mr-Qiuji/ember-ui-vue.git"
   },
   "dependencies": {
     "core-js": "^3.6.4",
